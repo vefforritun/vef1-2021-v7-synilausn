@@ -106,7 +106,7 @@ function round() {
     alert(`${player} er ógilt gildi! Tölva sigrar.`);
   }
 
-  const computer = Math.floor(Math.random() * 2 + 1).toString();
+  const computer = (Math.floor(Math.random() * 3) + 1).toString();
 
   const result = checkGame(player, computer);
 
